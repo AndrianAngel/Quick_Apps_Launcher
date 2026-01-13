@@ -75,3 +75,58 @@ See screenshots A1, A2, A3, A4 in the repo for a preview of the interface.
 - Built with AutoHotkey v1 for maximum compatibility.
 
 ---
+
+## 🎁 Overview
+
+
+
+___
+
+
+
+📌 No Title Bar and No Label
+
+
+
+![A1 Settings](Images/A1.png)
+
+
+
+___
+
+
+🌿 With Title Bar and Label 
+
+
+
+![A2 Settings](Images/A2.png)
+
+
+
+___
+
+
+
+📣 No Title Bar With Label 
+
+
+
+![A3 Settings](Images/A3.png)
+
+
+
+___
+
+
+
+📜 Setting Menu 
+
+
+
+![A4 Settings](Images/A4.png)
+
+
+
+___
+
+
