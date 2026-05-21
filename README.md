@@ -1,132 +1,104 @@
----
-
-## 🌹🌿 Quick Apps Launcher 🌹🌿
-
-QuickAppsLauncher is a lightweight application launcher built with AutoHotkey v1.  
-It provides a simple, dark-themed grid interface for quickly opening your favorite applications, with support for customization and advanced launch options.
-
----
-
-## ✨ Features
-
-- 16 App Slots (4×4 Grid)  
-  - Each slot can be assigned to an application (.exe file).  
-  - Dark box interface with optional labels and title bar.  
-  - See screenshots A1, A2, A3, A4 in the repo for examples.
-
-- Quick Launch Controls  
-  - Left Click → Launch app normally.  
-  - Hold Left Ctrl + Click → Run app as administrator.  
-  - Hold Right Ctrl + Click → Open the app’s folder location.
-
-- Hotkeys  
-  - F10 → Toggle the launcher box.  
-  - Alt + R → Toggle the settings window.
-
----
-
-## ⚙️ Settings
-
-Accessible via Alt + R, the settings window lets you fully customize the launcher:
-
-- 16 Slots Configuration  
-  - Use the Browse button to select .exe files.  
-  - Or paste the full path directly into the field.
-
-- Dark GUI  
-  - Modern dark-themed interface with styled controls.
-
-- Options  
-  - Checkbox to remove title bar → borderless launcher.  
-  - Checkbox to remove labels → icons only.
-
-- Persistence  
-  - Settings are saved in an .ini file automatically created after saving changes.  
-  - Changes apply immediately after saving.
-
----
-
-## 📂 Storage
-
-- All configuration is stored in LauncherSettings.ini (created in the script directory).  
-- Paths, labels, and preferences are preserved between sessions.
-
----
-
-## 🖼️ Screenshots
-
-See screenshots A1, A2, A3, A4 in the repo for a preview of the interface.
-
----
-
-## 🚀 Usage
-
-1. Run the script (QuickAppsLauncher.ahk).  
-2. Press F10 to open the launcher.  
-3. Assign apps via Alt + R → Settings.  
-4. Save and enjoy instant access to your favorite programs.
-
----
-
-## 🙂 Notes
-
-- Designed for simplicity and speed.  
-- Fully portable — just keep the .ahk script and .ini file together.  
-- Built with AutoHotkey v1 for maximum compatibility.
-
----
-
-## 🎁 Overview
-
-
-
 ___
 
+### 🎯 QUICK APPS LAUNCHER PRO
+___
 
+> A lightweight **AutoHotkey-powered** application launcher for Windows.  
+> Assign up to **16 apps** to icon slots and launch them instantly from a sleek dark overlay or your system tray.
 
-📌 No Title Bar and No Label
+---
 
+## 📥 Download
+
+| Version | File |
+|--------|------|
+| ✅ Windows 64-bit | `QuickAppsLauncherPro_x64.exe` |
+| ✅ Windows 32-bit | `QuickAppsLauncherPro_x86.exe` |
+| 📦 ZIP (includes exe) | `QuickAppsLauncherPro_x64.zip` / `QuickAppsLauncherPro_x86.zip` |
+
+> **No installation required.** Just run the `.exe`. Settings are saved automatically in `LauncherSettings.ini` next to the exe.
+
+---
+
+## 📁 Launcher — No Title Bar
 
 
 ![A1 Settings](Images/A1.png)
 
 
 
-___
+---
 
-
-🌿 With Title Bar and Label 
-
+## 📁 Launcher — With Title Bar
 
 
 ![A2 Settings](Images/A2.png)
 
 
 
-___
+The launcher displays a **4×4 grid** of app slots in a compact dark-themed overlay.  
+Toggle the title bar on or off from Settings to suit your style.
 
+- **Click** a slot → Launch the app normally
+- **Left Ctrl + Click** → Launch as **Administrator**
+- **Right Ctrl + Click** → Open the **app's folder location**
+- Empty slots show a `+` placeholder with a prompt to assign an app
 
+---
 
-📣 No Title Bar With Label 
-
+## 🔗 Settings
 
 
 ![A3 Settings](Images/A3.png)
 
 
 
-___
+Open Settings with `Alt+R` (or your custom hotkey) to configure:
 
+- 📂 **Slots 1–16** — Browse or type the path to any `.exe` per slot
+- 🏷️ **Show Labels Under Icons** — Toggle short filename labels below each icon
+- 🪟 **Show Title Bar** — Toggle the launcher window title bar
+- 🎹 **Launcher Toggle Hotkey** — Default: `F10`
+- 🎹 **Settings Hotkey** — Default: `Alt+R`
 
+**Hotkey symbol reference:**
 
-📜 Setting Menu 
+| Symbol | Key |
+|--------|-----|
+| `!` | Alt |
+| `#` | Win |
+| `^` | Ctrl |
+| `+` | Shift |
 
+> Example: `^!f` = `Ctrl+Alt+F`
+
+---
+
+## ✅ Tray Menu
 
 
 ![A4 Settings](Images/A4.png)
 
 
 
-___
+Right-click the system tray icon for quick access:
 
+- **Launcher (F10)** — Open/close the app grid overlay
+- **Settings (Alt+R)** — Open the settings panel
+- **Reload** — Restart the script to apply changes
+- **Exit** — Close the application
 
+---
+
+## ⚙️ How It Works
+
+1. Run the `.exe` — it starts silently in the system tray
+2. Press `Alt+R` to open Settings and assign apps to slots
+3. Press **Save** — hotkeys activate immediately
+4. Press `F10` to open the launcher grid and click any app to launch it
+
+---
+
+## 📄 License
+
+© AndrianAngel (Github) — All rights reserved.
